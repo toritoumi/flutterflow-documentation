@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "FlutterFlow ドキュメント",
+    "description": "The title in the navbar"
+  },
+  "item.label.Marketplace": {
+    "message": "マーケットプレイス",
+    "description": "Navbar item with label Marketplace"
+  },
+  "item.label.Troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "Navbar item with label Troubleshooting"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
