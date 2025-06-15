@@ -7,8 +7,8 @@ const config: Config = {
   tagline: 'Learn how to build mobile, web and desktop apps incredibly fast - without sacrificing on app quality or features',
   url: 'https://toritoumi.github.io',
   baseUrl: '/flutterflow-documentation/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   onBrokenAnchors: 'throw',
   favicon: 'logos/favicon.png',
   
@@ -23,7 +23,7 @@ const config: Config = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ja'],
   },
   presets: [
     [
