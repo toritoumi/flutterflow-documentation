@@ -5,18 +5,25 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'FlutterFlow Documentation',
   tagline: 'Learn how to build mobile, web and desktop apps incredibly fast - without sacrificing on app quality or features',
-  url: 'https://docs.flutterflow.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://toritoumi.github.io',
+  baseUrl: '/flutterflow-documentation/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
   favicon: 'logos/favicon.png',
+  
+  // GitHub pages deployment config
+  organizationName: 'toritoumi',
+  projectName: 'flutterflow-documentation',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
   clientModules: [
     require.resolve('./src/js/table-helpers.js'),
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja'],
+    locales: ['en'],
   },
   presets: [
     [
